@@ -1,0 +1,21 @@
+﻿<Window x:Class="PROG6212_POE.StudyHrsDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6212_POE"
+        mc:Ignorable="d"
+        Title="StudyHrsDisplay" Height="450" Width="800">
+    <Grid x:Name="StudyHrsDisplay1">
+        <Grid.Background>
+            <ImageBrush ImageSource="/background_Time_App.jpg"/>
+        </Grid.Background>
+        <Label x:Name="studyHrsLbl" Content="Self study hours remaining:" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black"/>
+        <DataGrid x:Name="selfStudyGrid"  Margin="269,177,269,126"/>
+        <Button x:Name="updateBtn" Content="Update" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Click="updateBtn_Click"/>
+        <ComboBox x:Name="selectedWeekComboBox" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="selectedWeekComboBox_SelectionChanged"/>
+        <Button x:Name="addModuleBtn" Content="Add Modules" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" Click="addModuleBtn_Click"/>
+        <Button x:Name="signOutBtn" Content="Sign Out" HorizontalAlignment="Center" Margin="0,377,0,0" VerticalAlignment="Top" Click="signOutBtn_Click"/>
+
+    </Grid>
+</Window>
