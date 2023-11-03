@@ -9,3 +9,4 @@ Once run, the application works with users. This means that each person who uses
 In order to run it, one must first download Visual Studio and pull the application code into their IDE and click on the green run button located in the tools bar above the open window. Once clicked, the user will just need to follow the prompts on the screen and enter the details in order to calculate their recommended self-study hours.
 
 ##Video Link##
+https://www.youtube.com/watch?v=rkOIgTtfiTc 
